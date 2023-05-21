@@ -1,0 +1,56 @@
+[
+    {
+        "title": "MY ACCOUNT",
+        "children": [
+            {
+                "title": "Dashboard",
+                "to": "user.dashboard",
+                "icon": "fa-solid fa-gauge",
+                "active": true
+            },
+            {
+                "title": "Edit Profile",
+                "to": "user.editProfile",
+                "icon": "fa-regular fa-pen-to-square",
+                "active": false
+            },
+            {
+                "title": "Change Password",
+                "to": "user.changePassword",
+                "icon": "fa-solid fa-lock-open",
+                "active": false
+            }
+        ]
+    },
+    {
+        "title": "TOUR BOOKING",
+        "children": [
+            {
+                "title": "My Bookings",
+                "to": "user.myBookings",
+                "icon": "fa-solid fa-pager",
+                "active": false
+            },
+            {
+                "title": "Wish List",
+                "to": "user.wishList",
+                "icon": "fa-regular fa-heart",
+                "active": false
+            },
+            {
+                "title": "Invoices",
+                "to": "user.invoices",
+                "icon": "fa-solid fa-wallet",
+                "active": false
+            },
+            {
+                "title": "Reviews",
+                "to": "user.reviews",
+                "icon": "fa-solid fa-solid fa-star",
+                "active": false
+            }
+       
+        ]
+    }
+    
+]

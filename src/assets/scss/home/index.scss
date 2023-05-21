@@ -1,0 +1,22 @@
+.box-info {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    &-icon {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        svg {
+            font-size: 1.6rem;
+        }
+    }
+    &-content {
+        padding: 0.2rem 1.6rem;
+        h2 , span {
+            font-weight: bold;
+        }
+    }
+}

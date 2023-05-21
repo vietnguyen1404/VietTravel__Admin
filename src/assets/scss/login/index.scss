@@ -1,0 +1,93 @@
+@import "../extends/index.scss";
+
+#login {
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrap-login {
+        width: 1000px;
+        height: 90vh;
+        background-color: #ffff;
+        padding: 12rem 3rem;
+    }
+    .bg-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        img {
+            object-fit: cover;
+            width: 90%;
+        }
+    }
+    .wrap-form-login {
+        display: flex;
+        align-items: center;
+        padding: 0 6rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .login-form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wrap-input {
+        position: relative;
+        width: 100%;
+        & > input {
+            width: 100%;
+            border-radius: 25px;
+            height: 40px;
+            padding: 5px 20px 5px 45px;
+            background-color: #c3c3c3;
+            border: none;
+        }
+        &:first-child {
+            margin-bottom: 0.6rem;
+        }
+        svg {
+            position: absolute;
+            top: 12px;
+            left: 20px;
+        }
+    }
+    .input-text:focus + .input-icon{
+        color :#fbd786 ;
+    }
+    .input-text:focus::-webkit-input-placeholder { /* WebKit browsers */
+        color:   transparent;
+    }
+    .login-btn {
+        height: 50px;
+        background-color: #fbd786;
+        width: 100%;
+        @extend %center;
+        border-radius: 25px;
+        &:hover {
+            background-color: #edc25d;
+            cursor: pointer;
+        }
+    }
+}
+
+
+// :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+//     color:    #fff;
+//     opacity:  1;
+// }
+// ::-moz-placeholder { /* Mozilla Firefox 19+ */
+//     color:    #fff;
+//     opacity:  1;
+// }
+// :-ms-input-placeholder { /* Internet Explorer 10+ */
+//     color:    #fff;
+// }
+
+

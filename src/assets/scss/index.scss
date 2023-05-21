@@ -1,0 +1,16 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+@import './variables.scss';
+@import './login/index.scss';
+@import './page-header/index.scss';
+@import './global/index.scss';
+@import './side-nav/index.scss';
+@import './main-content/index.scss';
+@import './home/index.scss';
+
+//sweet alert
+@import 'sweetalert2/dist/sweetalert2.min.css';
+
+//Multiselect
+@import 'vue-multiselect/dist/vue-multiselect.min.css';
